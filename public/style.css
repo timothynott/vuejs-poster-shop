@@ -26,7 +26,7 @@ button:focus, input:focus {
     display: none !important;
 }
 
-.fade-enter-active {
+.fade-enter-active, .fade-leave-active {
     transition: opacity .5s
 }
 .fade-enter, .fade-leave-active {
@@ -189,12 +189,14 @@ h1 {
 
 .cart > h2 {
     margin-top: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.83em;
+    -webkit-margin-after: 0;
 }
 
 .cart ul {
     width: 100%;
     font-size: 0.9rem;
-    border-top: 2px solid black;
     list-style: none;
     margin: 0;
     padding: 0;
